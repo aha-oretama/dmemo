@@ -8,7 +8,7 @@ gem 'pg', '~> 0.15'
 gem 'mysql2'
 gem 'activerecord4-redshift-adapter', '~> 0.2.0'
 
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.5'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 
@@ -32,7 +32,7 @@ gem 'revision_plate', require: 'revision_plate/rails'
 
 gem 'puma'
 
-gem 'non-stupid-digest-assets'
+gem 'non-stupid-digest-assets', '>= 1.0.8'
 
 gem 'action_args'
 
